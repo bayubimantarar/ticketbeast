@@ -1,6 +1,6 @@
 <!-- [![Build Status](https://img.shields.io/travis/bayubimantarar/suratapp.svg?style=flat-square)](https://travis-ci.org/bayubimantarar/suratapp) -->
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/bayubimantarar/suratapp/pulls)
-<!-- [![GitHub](https://img.shields.io/github/license/bayubimantarar/suratapp.svg?style=flat-square) -->
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/bayubimantarar/suratapp/pulls)
+[![GitHub](https://img.shields.io/github/license/bayubimantarar/ticketbeast.svg)](https://github.com/bayubimantarar/manajemen-surat/blob/master/LICENSE)
 
 # Ticketbeast
 Ticketbeast adalah website yang berisi informasi tentang event dan acara, serta pembelian tiket yang berkaitan dengan event dan acara tersebut.
