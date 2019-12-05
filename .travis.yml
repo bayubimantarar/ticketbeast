@@ -9,7 +9,6 @@ services:
 install:
   - cp .env.testing .env
   - travis_retry composer install --no-interaction --prefer-dist --no-suggest
-  - php artisan key:generate
 
 before_script:
   - mysql -e 'create database ticketbeast;'
