@@ -1,5 +1,5 @@
-<!-- [![Build Status](https://img.shields.io/travis/bayubimantarar/suratapp.svg?style=flat-square)](https://travis-ci.org/bayubimantarar/suratapp) -->
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/bayubimantarar/suratapp/pulls)
+[![Build Status](https://img.shields.io/travis/bayubimantarar/ticketbeast.svg)](https://travis-ci.org/bayubimantarar/ticketbeast)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/bayubimantarar/ticketbeast/pulls)
 [![GitHub](https://img.shields.io/github/license/bayubimantarar/ticketbeast.svg)](https://github.com/bayubimantarar/ticketbeast/blob/master/LICENSE)
 
 # Ticketbeast

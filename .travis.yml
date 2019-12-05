@@ -1,0 +1,18 @@
+language: php
+
+php:
+  - 7.3
+
+services:
+  - mysql
+
+install:
+  - cp .env.testing .env
+  - travis_retry composer install --no-interaction --prefer-dist --no-suggest
+  - php artisan key:generate
+
+before_script:
+  - mysql -e 'create database ticketbeast;'
+
+script:
+  - ./vendor/bin/phpunit
