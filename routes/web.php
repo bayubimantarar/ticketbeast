@@ -11,6 +11,31 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => 'event'], function(){
+    Route::get('/', [
+        'uses' => 'EventController@index',
+        'as' => 'event'
+    ]);
+    Route::get('/detail/{id}', [
+        'uses' => 'EventController@detail',
+        'as' => 'event.detail'
+    ]);
+});
+
+Route::group(['prefix' => 'ticket'], function(){
+    Route::get('/', [
+        'uses' => 'TicketController@index',
+        'as' => 'ticket'
+    ]);
+    Route::get('/detail/{id}', [
+        'uses' => 'TicketController@detail',
+        'as' => 'ticket.detail'
+    ]);
+});
+
+Route::group(['prefix' => 'order'], function(){
+    Route::post('/{id}', [
+        'uses' => 'OrderController@order',
+        'as' => 'order.order'
+    ]);
 });
